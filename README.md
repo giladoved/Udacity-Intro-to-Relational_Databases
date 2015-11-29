@@ -12,3 +12,4 @@ It requires PostgreSQL, Virtualbox, Python and Vagrant. It can be launched with 
 
 Run PostgreSQL with `psql`. Make sure you run this in the same directory as the tournament files
 Then import the tournament sql file with `\i tournament.sql;`
+To run the test cases exit psql with by typing `\q`, then run the python file of test cases with `python tournament_test.py`
